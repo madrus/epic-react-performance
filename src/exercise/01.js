@@ -3,10 +3,8 @@
 
 import * as React from 'react'
 
-const Globe = React.lazy(() => import('../globe'))
-function loadGlobe() {
-  return import('../globe')
-}
+const loadGlobe = () => import('../globe')
+const Globe = React.lazy(loadGlobe)
 
 function App() {
   const [showGlobe, setShowGlobe] = React.useState(false)
