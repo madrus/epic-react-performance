@@ -88,7 +88,8 @@
 		"workerDirectory": "public"
 	},
 	"engines": {
-		"node": "14 || 16 || 18",
-		"pnpm": ">=7.29.2"
+		"node": ">=16",
+    "pnpm": ">=8.16.0"
 	}
+    "@testing-library/react": "^13.3.0"
 }
